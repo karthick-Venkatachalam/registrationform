@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Sign up
+        </title>
+        <meta name="viewport " content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>
+            Sign up Form
+        </h1>
+        <form>
+            <label> Username:</label>
+            <input type="text" placeholder="Enter ur user name" id="username" required>
+            <br> <br>
+             <label> Password:</label>
+            <input type="password" placeholder="Enter password"  id="password" required>
+            <br> <br>
+             <label> confirm password :</label>
+            <input type="password" placeholder="Enter the same password" id="confirm" required>
+            <br><br>
+            <label> E-mail:</label>
+            <input type="email" placeholder="Enter ur e-mail" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+            <br>
+            <br>
+             <label> mobile number:</label>
+             <input type="tel" placeholder="Enter ur mobile number"  id="mobile"required pattern="[0-9]{10}">
+            <button onclick=" return verify()"> summit </button>
+        </form>
+        <script src="script.js"></script>
+    </body>
+    
+</html>
